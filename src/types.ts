@@ -7,4 +7,4 @@ export interface NodeInfo {
   raw?: Record<string, unknown>; telegramSupported: boolean; telegramUrl?: string;
 }
 
-export interface Env { SUBSCRIPTION_URL?: string; ADMIN_TOKEN?: string; CACHE_TTL?: string; }
+export interface Env { SUB_URL?: string; SUBSCRIPTION_URL?: string; ADMIN_TOKEN?: string; CACHE_TTL?: string; }
