@@ -1,6 +1,10 @@
 name = "telegram-proxy-hub"
 main = "src/index.ts"
 compatibility_date = "2026-08-24"
+workers_dev = true
 
 [vars]
-ENVIRONMENT = "production"
+CACHE_TTL = "600"
+
+[observability]
+enabled = true
