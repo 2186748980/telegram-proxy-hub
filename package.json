@@ -1,6 +1,6 @@
 {
   "name": "telegram-proxy-hub",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "private": true,
   "type": "module",
   "scripts": {
@@ -12,7 +12,7 @@
     "yaml": "^2.8.1"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20260820.0",
+    "@cloudflare/workers-types": "^4.20260819.0",
     "typescript": "^5.9.2",
     "wrangler": "^4.125.0"
   }
